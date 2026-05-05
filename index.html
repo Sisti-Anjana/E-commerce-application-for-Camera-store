@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LensCraft — Canon EOS R5 Mark II | Professional Camera Store</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ==================== ANNOUNCEMENT BAR ==================== -->
+  <div class="announcement-bar">
+    Free Express Shipping on Orders Over <span>$499</span> &mdash; Limited Time Offer
+  </div>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#" class="logo">
+        <div class="logo-icon">LC</div>
+        LensCraft
+      </a>
+
+      <!-- Navigation -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Cameras</a></li>
+          <li><a href="#">Lenses</a></li>
+          <li><a href="#">Lighting</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Deals</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button aria-label="Search">&#128269;</button>
+        <button aria-label="Account">&#128100;</button>
+        <button aria-label="Cart">
+          &#128722;
+          <span class="cart-count">3</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== BREADCRUMB ==================== -->
+  <div class="breadcrumb">
+    <div class="container">
+      <a href="#">Home</a>
+      <span>&#8250;</span>
+      <a href="#">Cameras</a>
+      <span>&#8250;</span>
+      <a href="#">Mirrorless</a>
+      <span>&#8250;</span>
+      <span class="current">Canon EOS R5 Mark II</span>
+    </div>
+  </div>
+
+  <!-- ==================== PRODUCT SECTION ==================== -->
+  <section class="product-section">
+    <div class="container product-layout">
+
+      <!-- === Gallery === -->
+      <div class="product-gallery">
+        <div class="main-image-wrapper">
+          <span class="image-badge">New Arrival</span>
+          <!-- Placeholder main product image -->
+          <img
+            src="https://placehold.co/600x600/f0f0f3/1a1a2e?text=Canon+EOS+R5+II&font=raleway"
+            alt="Canon EOS R5 Mark II — Front View"
+            id="mainImage"
+          />
+        </div>
+
+        <!-- 4 Thumbnails -->
+        <div class="thumbnail-strip">
+          <div class="thumbnail active" onclick="changeImage('Canon+EOS+R5+II', this)">
+            <img src="https://placehold.co/150x150/f0f0f3/1a1a2e?text=Front&font=raleway" alt="Front View" />
+          </div>
+          <div class="thumbnail" onclick="changeImage('Side+View', this)">
+            <img src="https://placehold.co/150x150/f0f0f3/1a1a2e?text=Side&font=raleway" alt="Side View" />
+          </div>
+          <div class="thumbnail" onclick="changeImage('Top+View', this)">
+            <img src="https://placehold.co/150x150/f0f0f3/1a1a2e?text=Top&font=raleway" alt="Top View" />
+          </div>
+          <div class="thumbnail" onclick="changeImage('With+Lens', this)">
+            <img src="https://placehold.co/150x150/f0f0f3/1a1a2e?text=Lens&font=raleway" alt="With Lens" />
+          </div>
+        </div>
+      </div>
+
+      <!-- === Product Info === -->
+      <div class="product-info">
+
+        <div class="product-brand">Canon</div>
+        <h1 class="product-name">EOS R5 Mark II Mirrorless Camera Body</h1>
+
+        <!-- Rating -->
+        <div class="product-rating">
+          <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star empty">&#9733;</span>
+          </div>
+          <span class="rating-text"><strong>4.2</strong> &mdash; 128 Reviews</span>
+        </div>
+
+        <!-- Price -->
+        <div class="product-price">
+          <span class="price-current">$3,899.00</span>
+          <span class="price-original">$4,299.00</span>
+          <span class="price-save">Save $400</span>
+        </div>
+
+        <!-- Short Description (~60 words) -->
+        <p class="product-short-desc">
+          Capture every fleeting moment with stunning clarity. The Canon EOS R5 Mark II
+          delivers a groundbreaking 45-megapixel full-frame CMOS sensor paired with the
+          revolutionary DIGIC X processor. Featuring advanced dual-pixel autofocus,
+          in-body image stabilization up to 8 stops, and 8K RAW video recording,
+          this camera redefines professional photography. Whether shooting fast-paced
+          wildlife or cinematic landscapes, the R5 II delivers unmatched performance.
+        </p>
+
+        <!-- Color Variant -->
+        <div class="variant-section">
+          <div class="variant-label">Color</div>
+          <div class="color-options">
+            <div class="color-swatch swatch-black active" title="Black"></div>
+            <div class="color-swatch swatch-graphite" title="Graphite"></div>
+            <div class="color-swatch swatch-silver" title="Silver"></div>
+          </div>
+        </div>
+
+        <!-- Purchase Row -->
+        <div class="purchase-row">
+          <div class="qty-selector">
+            <button class="qty-btn" onclick="changeQty(-1)">&#8722;</button>
+            <input type="text" class="qty-value" value="1" readonly id="qtyInput" />
+            <button class="qty-btn" onclick="changeQty(1)">&#43;</button>
+          </div>
+          <button class="btn-add-cart">
+            &#128722; Add to Cart
+          </button>
+        </div>
+
+        <button class="btn-buy-now">Buy It Now</button>
+
+        <!-- Trust Badges -->
+        <div class="trust-badges">
+          <div class="trust-badge">
+            <div class="trust-icon">&#128666;</div>
+            <div class="trust-text">Free Shipping</div>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">&#128274;</div>
+            <div class="trust-text">Secure Payment</div>
+          </div>
+          <div class="trust-badge">
+            <div class="trust-icon">&#128260;</div>
+            <div class="trust-text">30-Day Returns</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== DETAILS / TABS ==================== -->
+  <section class="product-details-section">
+    <div class="container">
+      <div class="tabs-wrapper">
+
+        <!-- Tab Navigation -->
+        <div class="tabs-nav">
+          <button class="tab-btn active" onclick="switchTab('description', this)">Description</button>
+          <button class="tab-btn" onclick="switchTab('specifications', this)">Specifications</button>
+          <button class="tab-btn" onclick="switchTab('shipping', this)">Shipping</button>
+          <button class="tab-btn" onclick="switchTab('warranty', this)">Warranty</button>
+        </div>
+
+        <!-- Tab Content: Description -->
+        <div class="tab-content" id="tab-description">
+          <div class="description-content">
+            <h3>Professional-Grade Performance</h3>
+            <p>
+              The Canon EOS R5 Mark II represents the pinnacle of mirrorless camera
+              technology. Built for professional photographers and videographers who
+              demand nothing less than perfection, the R5 II combines a high-resolution
+              45MP sensor with blazing-fast continuous shooting speeds of up to 30 fps
+              with the electronic shutter. The advanced subject-detection autofocus
+              system recognizes people, animals, vehicles, and aircraft, ensuring
+              tack-sharp focus in every situation.
+            </p>
+            <p>
+              Video capabilities are equally impressive, with internal 8K 60p RAW and
+              4K 120p recording. The improved heat dissipation system allows extended
+              recording times, making it ideal for documentary and commercial work.
+              Dual card slots (CFexpress and SD UHS-II) provide flexible and reliable
+              storage options for any workflow.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tab Content: Specifications (hidden by default, toggled by JS) -->
+        <div class="tab-content" id="tab-specifications" style="display: none;">
+          <div class="description-content">
+            <h3>Technical Specifications</h3>
+            <div class="spec-grid">
+              <div class="spec-item">
+                <span class="spec-label">Sensor</span>
+                <span class="spec-value">45MP Full-Frame CMOS</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Processor</span>
+                <span class="spec-value">DIGIC X</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">ISO Range</span>
+                <span class="spec-value">100 – 51,200</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Autofocus</span>
+                <span class="spec-value">Dual Pixel CMOS AF II</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Stabilization</span>
+                <span class="spec-value">5-Axis IBIS, 8 Stops</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Burst Speed</span>
+                <span class="spec-value">30 fps (Electronic)</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Video</span>
+                <span class="spec-value">8K 60p RAW / 4K 120p</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Display</span>
+                <span class="spec-value">3.2" Vari-Angle LCD</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Card Slots</span>
+                <span class="spec-value">CFexpress + SD UHS-II</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Weight</span>
+                <span class="spec-value">680g (Body Only)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab Content: Shipping -->
+        <div class="tab-content" id="tab-shipping" style="display: none;">
+          <div class="description-content">
+            <h3>Shipping Information</h3>
+            <p>
+              We offer free standard shipping on all orders over $499. Standard
+              delivery takes 5–7 business days. Express shipping is available for
+              $19.99 with 2–3 business day delivery. Overnight shipping is available
+              for $39.99. All orders are fully insured and require a signature upon
+              delivery for items valued over $500.
+            </p>
+            <p>
+              International shipping is available to over 40 countries. Customs duties
+              and taxes are the responsibility of the buyer. Please allow 7–14 business
+              days for international delivery. Tracking information will be provided
+              via email within 24 hours of shipment.
+            </p>
+          </div>
+        </div>
+
+        <!-- Tab Content: Warranty -->
+        <div class="tab-content" id="tab-warranty" style="display: none;">
+          <div class="description-content">
+            <h3>Warranty & Returns</h3>
+            <p>
+              This product comes with a full 2-year manufacturer's warranty covering
+              defects in materials and workmanship. Extended warranty plans of up to
+              5 years are available at checkout. The warranty does not cover accidental
+              damage, misuse, or unauthorized modifications.
+            </p>
+            <p>
+              We accept returns within 30 days of delivery in original, unopened
+              packaging for a full refund. Opened items may be subject to a 15%
+              restocking fee. Please contact our support team to initiate a return
+              and receive a prepaid shipping label.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== REVIEWS ==================== -->
+  <section class="reviews-section">
+    <div class="container">
+
+      <div class="section-header">
+        <h2>Customer Reviews</h2>
+        <p>Hear from verified photographers who use the R5 Mark II</p>
+      </div>
+
+      <!-- Overview -->
+      <div class="reviews-overview">
+        <div class="review-summary">
+          <div class="review-big-number">4.2</div>
+          <div class="stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star empty">&#9733;</span>
+          </div>
+          <div class="review-count">Based on 128 reviews</div>
+        </div>
+
+        <div class="rating-bars">
+          <div class="rating-bar-row">
+            <span class="bar-label">5 Star</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 58%;"></div></div>
+            <span class="bar-count">74</span>
+          </div>
+          <div class="rating-bar-row">
+            <span class="bar-label">4 Star</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 22%;"></div></div>
+            <span class="bar-count">28</span>
+          </div>
+          <div class="rating-bar-row">
+            <span class="bar-label">3 Star</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 12%;"></div></div>
+            <span class="bar-count">15</span>
+          </div>
+          <div class="rating-bar-row">
+            <span class="bar-label">2 Star</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 5%;"></div></div>
+            <span class="bar-count">7</span>
+          </div>
+          <div class="rating-bar-row">
+            <span class="bar-label">1 Star</span>
+            <div class="bar-track"><div class="bar-fill" style="width: 3%;"></div></div>
+            <span class="bar-count">4</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review Cards -->
+      <div class="reviews-list">
+
+        <!-- Review 1 -->
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">MJ</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Michael Jensen</div>
+              <div class="review-date">March 15, 2026</div>
+            </div>
+            <span class="review-verified">&#10003; Verified Purchase</span>
+          </div>
+          <div class="review-stars stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+          <div class="review-title">A Game-Changer for Wildlife Photography</div>
+          <p class="review-text">
+            The autofocus tracking on this camera is absolutely phenomenal. I've been
+            shooting birds in flight for over a decade, and nothing comes close to the
+            R5 II's subject detection. The 30fps burst mode captures every wing beat.
+            Image quality at high ISO is remarkably clean — I can push to 12800 without
+            hesitation. Worth every penny.
+          </p>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">SP</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">Sarah Patel</div>
+              <div class="review-date">February 28, 2026</div>
+            </div>
+            <span class="review-verified">&#10003; Verified Purchase</span>
+          </div>
+          <div class="review-stars stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star empty">&#9733;</span>
+          </div>
+          <div class="review-title">Incredible Video, Slight Learning Curve</div>
+          <p class="review-text">
+            As a hybrid shooter, the 8K video capability sold me. The footage is
+            breathtaking — colors are rich and the dynamic range is insane. IBIS works
+            wonders for handheld shooting. Only reason for 4 stars is the menu system
+            takes some getting used to if you're coming from Sony. Once you learn it
+            though, it's a dream machine.
+          </p>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+          <div class="review-top">
+            <div class="reviewer-avatar">DK</div>
+            <div class="reviewer-info">
+              <div class="reviewer-name">David Kim</div>
+              <div class="review-date">January 10, 2026</div>
+            </div>
+            <span class="review-verified">&#10003; Verified Purchase</span>
+          </div>
+          <div class="review-stars stars">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star empty">&#9733;</span>
+          </div>
+          <div class="review-title">Best Portrait Camera I've Ever Used</div>
+          <p class="review-text">
+            The eye-detection AF is eerily accurate — it locks on and never lets go.
+            The 45MP resolution gives me plenty of room to crop without losing detail,
+            which is perfect for editorial work. Skin tones are beautiful straight out
+            of camera. Battery life could be better during heavy shooting days, but I
+            always carry a spare. Highly recommend for portrait professionals.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== RELATED PRODUCTS ==================== -->
+  <section class="related-products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>You May Also Like</h2>
+        <p>Other professional cameras our customers love</p>
+      </div>
+      <div class="products-grid">
+        
+        <!-- Product Card 1 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="https://placehold.co/280x280/f0f0f3/1a1a2e?text=Canon+R6+Mark+II&font=raleway" alt="Canon EOS R6 Mark II" />
+            <span class="product-badge">Best Seller</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Canon EOS R6 Mark II</h3>
+            <p class="product-brand-text">Full-Frame Mirrorless</p>
+            <div class="product-card-rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="rating-count">(285)</span>
+            </div>
+            <div class="product-card-price">
+              <span class="price">$2,499.00</span>
+              <span class="old-price">$2,799.00</span>
+            </div>
+            <button class="btn-card-add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="https://placehold.co/280x280/f0f0f3/1a1a2e?text=Sony+A9+III&font=raleway" alt="Sony A9 III" />
+            <span class="product-badge">Hot Deal</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Sony A9 III</h3>
+            <p class="product-brand-text">Professional Full-Frame</p>
+            <div class="product-card-rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="rating-count">(412)</span>
+            </div>
+            <div class="product-card-price">
+              <span class="price">$6,498.00</span>
+              <span class="old-price">$6,998.00</span>
+            </div>
+            <button class="btn-card-add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="https://placehold.co/280x280/f0f0f3/1a1a2e?text=Nikon+Z9&font=raleway" alt="Nikon Z9" />
+            <span class="product-badge">Premium</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Nikon Z9</h3>
+            <p class="product-brand-text">Flagship Full-Frame</p>
+            <div class="product-card-rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star empty">&#9733;</span>
+              <span class="rating-count">(156)</span>
+            </div>
+            <div class="product-card-price">
+              <span class="price">$5,496.95</span>
+              <span class="old-price">$5,999.95</span>
+            </div>
+            <button class="btn-card-add">Add to Cart</button>
+          </div>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+          <div class="product-card-image">
+            <img src="https://placehold.co/280x280/f0f0f3/1a1a2e?text=Fujifilm+X-H2S&font=raleway" alt="Fujifilm X-H2S" />
+            <span class="product-badge">New</span>
+          </div>
+          <div class="product-card-info">
+            <h3>Fujifilm X-H2S</h3>
+            <p class="product-brand-text">APS-C Professional</p>
+            <div class="product-card-rating">
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="star">&#9733;</span>
+              <span class="rating-count">(203)</span>
+            </div>
+            <div class="product-card-price">
+              <span class="price">$1,699.00</span>
+              <span class="old-price">$1,899.00</span>
+            </div>
+            <button class="btn-card-add">Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== EXTRA INFO (SHIPPING / WARRANTY) ==================== -->
+  <section class="extra-info-section">
+    <div class="container">
+      <div class="section-header" style="color: #ffffff;">
+        <h2 style="color: #ffffff;">Why Shop With LensCraft?</h2>
+        <p style="color: #a0a0b0;">Professional service for professional photographers</p>
+      </div>
+      <div class="extra-info-grid">
+        <div class="info-card">
+          <div class="info-icon">&#128666;</div>
+          <h4>Free Express Shipping</h4>
+          <p>Complimentary 2-day express shipping on all orders over $499. Fully insured with real-time tracking.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">&#128260;</div>
+          <h4>30-Day Easy Returns</h4>
+          <p>Not satisfied? Return within 30 days for a full refund. Prepaid return labels provided at no cost.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">&#128736;</div>
+          <h4>2-Year Warranty</h4>
+          <p>Full manufacturer warranty with option to extend up to 5 years. Covers defects in materials and workmanship.</p>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">&#127775;</div>
+          <h4>Expert Support</h4>
+          <p>Our team of camera specialists is available 7 days a week via phone, email, or live chat to assist you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== NEWSLETTER ==================== -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-inner">
+        <h2>Stay in Focus</h2>
+        <p>Subscribe to our newsletter for exclusive deals, gear reviews, and photography tips delivered to your inbox.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing!');">
+          <input type="email" placeholder="Enter your email address" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="newsletter-note">No spam, ever. Unsubscribe anytime. We respect your privacy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+
+      <div class="footer-grid">
+
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <div class="logo-icon">LC</div>
+            LensCraft
+          </a>
+          <p>
+            Your trusted destination for professional cameras, lenses, and photography
+            accessories. Serving photographers worldwide since 2012.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Instagram">&#9743;</a>
+            <a href="#" class="social-link" aria-label="Twitter">&#120143;</a>
+            <a href="#" class="social-link" aria-label="YouTube">&#9654;</a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Shop</h4>
+          <ul>
+            <li><a href="#">Cameras</a></li>
+            <li><a href="#">Lenses</a></li>
+            <li><a href="#">Lighting</a></li>
+            <li><a href="#">Tripods</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+        </div>
+
+        <!-- Support -->
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Shipping Info</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Warranty</a></li>
+            <li><a href="#">Order Tracking</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <span>&copy; 2026 LensCraft Camera Store. All rights reserved.</span>
+        <div class="payment-methods">
+          <span class="pay-icon">VISA</span>
+          <span class="pay-icon">MC</span>
+          <span class="pay-icon">AMEX</span>
+          <span class="pay-icon">PAYPAL</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    // Thumbnail switcher
+    function changeImage(label, thumbEl) {
+      const main = document.getElementById('mainImage');
+      main.src = 'https://placehold.co/600x600/f0f0f3/1a1a2e?text=' + label + '&font=raleway';
+      document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+      thumbEl.classList.add('active');
+    }
+
+    // Quantity selector
+    function changeQty(delta) {
+      const inp = document.getElementById('qtyInput');
+      let v = parseInt(inp.value) + delta;
+      if (v < 1) v = 1;
+      if (v > 10) v = 10;
+      inp.value = v;
+    }
+
+    // Tab switcher
+    function switchTab(tabId, btnEl) {
+      // Hide all tabs
+      document.querySelectorAll('.tab-content').forEach(tc => tc.style.display = 'none');
+      // Remove active from all buttons
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      // Show selected
+      document.getElementById('tab-' + tabId).style.display = 'block';
+      btnEl.classList.add('active');
+    }
+
+    // Color swatch selector
+    document.querySelectorAll('.color-swatch').forEach(swatch => {
+      swatch.addEventListener('click', () => {
+        document.querySelectorAll('.color-swatch').forEach(s => s.classList.remove('active'));
+        swatch.classList.add('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
